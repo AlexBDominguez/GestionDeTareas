@@ -80,7 +80,6 @@ fun TareasHeader(pendientesCount: Int) {
                 .padding(16.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            // Fila para el icono (placeholder) y el nombre de la App
             Row(
                 verticalAlignment = Alignment.CenterVertically
             ) {

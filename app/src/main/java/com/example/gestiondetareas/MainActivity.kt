@@ -22,12 +22,10 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             GestionDeTareasTheme {
-                // Un contenedor simple de Surface con el color de fondo.
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    // Llamada a nuestra pantalla principal de la aplicación
                     ListaTareasApp()
                 }
             }
@@ -37,7 +35,6 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun ListaTareasApp() {
-    // La pantalla principal que contiene la lógica
     ListaTareasScreen()
 }
 
